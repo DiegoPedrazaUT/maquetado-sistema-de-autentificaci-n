@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Login Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Sistema de Autentificacion</h1>
+        <h3>Inicio de sesion</h3>
+
+        <form action="dashboard.html">
+            <label for="first">
+                Username:
+            </label>
+            <input type="text" id="first" name="first" 
+                placeholder="Enter your Username" required>
+
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="password" name="password" 
+                placeholder="Enter your Password" required>
+
+            <div class="wrap">
+                <button type="submit">
+                    Iniciar sesion
+                </button>
+            </div>
+        </form>
+        
+        <p>No te has registrado
+            <a href="registro.html" style="text-decoration: none;">
+                Crea una cuenta
+            </a>
+        </p>
+    </div>
+</body>
+
+</html>
